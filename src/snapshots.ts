@@ -3,13 +3,13 @@ import deanslistTokenHolders from './snapshots/deanslist-token-holders.json' ass
 import devs from './snapshots/dev.json' assert { type: 'json' }
 import dlFutards from './snapshots/dl-futards.json' assert { type: 'json' }
 import dlVota from './snapshots/dl-vota.json' assert { type: 'json' }
-import smbGen2 from './snapshots/smb-gen2.json' assert { type: 'json' }
-import smbGen3 from './snapshots/smb-gen3.json' assert { type: 'json' }
+import dlAthDao from './snapshots/dl-athensdao.json' assert { type: 'json' }
+import dlIslandDao from './snapshots/dl-islanddao.json' assert { type: 'json' }
 
 export type SnapshotType = 'nft' | 'token' | 'static'
 
 export interface SnapshotWallet {
-  address: string;
+  address?: string;
   amount: number;
   allocation?: number;
 }
@@ -30,8 +30,8 @@ export const snapshotMap = new Map<string, SnapshotWallet[]>()
   .set('devs', devs)
   .set('dl-futards', dlFutards)
   .set('dl-vota', dlVota)
-  .set('smb-gen2', smbGen2)
-  .set('smb-gen3', smbGen3)
+  .set('ath-dao', dlAthDao)
+  .set('island-dao', dlIslandDao)
 
 export const snapshots: Snapshot[] = [
   {
@@ -53,6 +53,22 @@ export const snapshots: Snapshot[] = [
   {
     type: 'static',
     minimumAmount: 1,
+    id: "dl-ahthensdao",
+    name: "AthensDAO Participants",
+    description: "This is the list of AthensDAO participants",
+    address: "",    
+  },
+  {
+    type: 'static',
+    minimumAmount: 1,
+    id: "dl-islanddao",
+    name: "IslandDAO Participants",
+    description: "This is the list of IslandDAO participants",
+    address: "",    
+  },
+  {
+    type: 'static',
+    minimumAmount: 1,
     id: "dl-futards",
     name: "Dean's List Futards",
     description: "This is the list of Dean's List Futards",
@@ -65,21 +81,5 @@ export const snapshots: Snapshot[] = [
     name: "Dean's List Vota",
     description: "This is the list of Dean's List Vota",
     address: "82vybRHyD6X6g4xMn8WZtQ3VxppQfGHTu9jF5Mnqwc1X",
-  },
-  {
-    type: 'nft',
-    minimumAmount: 1,
-    id: "smb-gen2",
-    name: "Solana Monkey Business - Gen 2",
-    description: "List of SMB Gen 2 holders",
-    address: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
-  },
-  {
-    type: 'nft',
-    minimumAmount: 1,
-    id: "smb-gen3",
-    name: "Solana Monkey Business - Gen 3",
-    description: "List of SMB Gen 3 holders",
-    address: "8Rt3Ayqth4DAiPnW9MDFi63TiQJHmohfTWLMQFHi4KZH",
   }
 ]
