@@ -30,8 +30,8 @@ export const snapshotMap = new Map<string, SnapshotWallet[]>()
   .set('devs', devs)
   .set('dl-futards', dlFutards)
   .set('dl-vota', dlVota)
-  .set('ath-dao', dlAthDao)
-  .set('island-dao', dlIslandDao)
+  .set('dl-athensdao', dlAthDao)
+  .set('dl-islanddao', dlIslandDao)
 
 export const snapshots: Snapshot[] = [
   {
@@ -53,7 +53,7 @@ export const snapshots: Snapshot[] = [
   {
     type: 'static',
     minimumAmount: 1,
-    id: "dl-ahthensdao",
+    id: "dl-athensdao",
     name: "AthensDAO Participants",
     description: "This is the list of AthensDAO participants",
     address: "",    
