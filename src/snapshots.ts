@@ -39,7 +39,7 @@ export const snapshots: Snapshot[] = [
     minimumAmount: 1,
     id: "deanslist-gen1",
     name: "Dean's List NFT Gen 1",
-    description: "This is the list of Dean's List NFT Gen 1 holders.",
+    description: "Own a Dean's List NFT Gen 1.",
     address: "5FusHaKEKjfKsmQwXNrhFcFABGGxu7iYCdbvyVSRe3Ri",
   },
   {
@@ -47,14 +47,14 @@ export const snapshots: Snapshot[] = [
     minimumAmount: 69000000000,
     id: "deanslist-token-holders",
     name: "Dean's List Token Holders",
-    description: "This is the list of Dean's List Token Holders",
+    description: "Own 69,000 $DEAN tokens or more.",
     address: "Ds52CDgqdWbTWsua1hgT3AuSSy4FNx2Ezge1br3jQ14a",
   },
   {
     type: 'static',
     minimumAmount: 1,
     id: "dl-athensdao",
-    name: "AthensDAO Participants",
+    name: "Attended AthensDAO",
     description: "This is the list of AthensDAO participants",
     address: "",    
   },
@@ -62,7 +62,7 @@ export const snapshots: Snapshot[] = [
     type: 'static',
     minimumAmount: 1,
     id: "dl-islanddao",
-    name: "IslandDAO Participants",
+    name: "Attended IslandDAO",
     description: "This is the list of IslandDAO participants",
     address: "",    
   },
@@ -71,7 +71,7 @@ export const snapshots: Snapshot[] = [
     minimumAmount: 1,
     id: "dl-futards",
     name: "Dean's List Futards",
-    description: "This is the list of Dean's List Futards",
+    description: "Participated in Futarchy governance",
     address: "2K9ZpC3LVqRfR8Vveo92LhiofbDcF6PuDRJbaPp9V34m",
   },
   {
@@ -79,7 +79,7 @@ export const snapshots: Snapshot[] = [
     minimumAmount: 1,
     id: "dl-vota",
     name: "Dean's List Vota",
-    description: "This is the list of Dean's List Vota",
+    description: "Used Vota governance",
     address: "82vybRHyD6X6g4xMn8WZtQ3VxppQfGHTu9jF5Mnqwc1X",
   }
 ]
