@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "samui-collection-allocation",
+
+  "name": "deanslist-allocation",
   "main": "src/index.ts",
   "compatibility_date": "2025-01-31",
   "vars": {

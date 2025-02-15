@@ -7,12 +7,13 @@
     "snapshot": "pnpm tsx ./scripts/get-snapshots.ts"
   },
   "dependencies": {
+    "@onsol/tldparser": "^0.6.7",
     "hono": "^4.6.20"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250109.0",
     "@solana/web3.js": "^1.98.0",
-    "@types/node": "^22.13.0",
+    "@types/node": "^22.13.1",
     "dotenv": "^16.4.7",
     "helius-sdk": "^1.4.2",
     "tsx": "^4.19.2",
