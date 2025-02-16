@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@onsol/tldparser": "^0.6.7",
+    "fetch-unfucked": "^1.2.8",
     "hono": "^4.6.20"
   },
   "devDependencies": {

@@ -1,15 +1,16 @@
-import { PublicKey } from "@solana/web3.js";
+import { Connection, PublicKey } from "@solana/web3.js";
 import { Context, Hono } from "hono";
 import { getSnapshot } from "./lib/get-snapshot";
 import { getSnapshotsForAddress } from "./lib/get-snapshots-for-address";
 import { snapshots } from "./snapshots";
 import { cors } from "hono/cors";
 import { env } from "hono/adapter";
+import { getWalletAddress } from "./lib/get-wallet-address";
 
 const app = new Hono();
 
 function getEnv(c: Context) {
-  return env<{ ALLOWED_ORIGINS: string }>(c);
+  return env<{ ALLOWED_ORIGINS: string, HELIUS_ENDPOINT: string }>(c);
 }
 
 function getOrigins(c: Context): string[] {
@@ -19,6 +20,13 @@ function getOrigins(c: Context): string[] {
   return envOrigins
     .map((origin) => origin.trim())
     .filter((origin) => origin.length > 0);
+}
+
+function getConnection(c: Context): Connection {
+  const e = getEnv(c);
+  const endpoint: string = getEnv(c).HELIUS_ENDPOINT;
+
+  return new Connection(endpoint);
 }
 
 app.use(
@@ -54,13 +62,15 @@ app.get("/snapshots/:id", async (c) => {
 });
 
 app.get("/wallet/:address", async (c) => {
-  const address = c.req.param("address");
+  const addressOrDomain = c.req.param("address");
 
-  if (!address) {
+  if (!addressOrDomain) {
     return c.text("Address not found");
   }
+  const connection = getConnection(c);
+  const address = await getWalletAddress(connection, addressOrDomain);
 
-  if (!isValidAddress(address)) {
+  if (!address) {
     c.status(400);
     return c.json({ error: "Invalid address" });
   }

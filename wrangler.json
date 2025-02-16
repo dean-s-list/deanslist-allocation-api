@@ -7,10 +7,10 @@
   "vars": {
     "ALLOWED_ORIGINS": "http://localhost:5173",
     "HELIUS_ENDPOINT": ""
-  }
-  // "compatibility_flags": [
-  //   "nodejs_compat"
-  // ],
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
   // "vars": {
   //   "MY_VAR": "my-variable"
   // },

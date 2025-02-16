@@ -11,6 +11,9 @@ importers:
       '@onsol/tldparser':
         specifier: ^0.6.7
         version: 0.6.7(@solana/web3.js@1.98.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(bn.js@5.2.1)(borsh@0.7.0)(buffer@6.0.3)(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      fetch-unfucked:
+        specifier: ^1.2.8
+        version: 1.2.8
       hono:
         specifier: ^4.6.20
         version: 4.6.20
@@ -1085,6 +1088,9 @@ packages:
 
   fastestsmallesttextencoderdecoder@1.0.22:
     resolution: {integrity: sha512-Pb8d48e+oIuY4MaM64Cd7OW1gt4nxCHs7/ddPPZ/Ic3sg8yVGM7O9wDvZ7us6ScaUupzM+pfBolwtYhN1IxBIw==}
+
+  fetch-unfucked@1.2.8:
+    resolution: {integrity: sha512-+wC3RvrhxxZwrf9yuojOpi0giqXN4JDZ3SBiXLl3wctexLYNkDro355dxNGkee89dg3or1AtOR+KC+2ha/dQYg==}
 
   figures@3.2.0:
     resolution: {integrity: sha512-yaduQFRKLXYOGgEn6AZau90j3ggSOyiqXU0F9JZfeXYhNa+Jk4X+s45A2zg5jns87GAFa34BBm2kXw4XpNcbdg==}
@@ -3099,6 +3105,8 @@ snapshots:
   fast-stable-stringify@1.0.0: {}
 
   fastestsmallesttextencoderdecoder@1.0.22: {}
+
+  fetch-unfucked@1.2.8: {}
 
   figures@3.2.0:
     dependencies:
