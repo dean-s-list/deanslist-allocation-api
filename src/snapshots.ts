@@ -5,8 +5,9 @@ import dlFutards from './snapshots/dl-futards.json' assert { type: 'json' }
 import dlVota from './snapshots/dl-vota.json' assert { type: 'json' }
 import dlAthDao from './snapshots/dl-athensdao.json' assert { type: 'json' }
 import dlIslandDao from './snapshots/dl-islanddao.json' assert { type: 'json' }
+import dlDotSer from './snapshots/dl-dot-ser.json' assert { type: 'json' }
 
-export type SnapshotType = 'nft' | 'token' | 'static'
+export type SnapshotType = 'nft' | 'token' | 'domain' | 'static'
 
 export interface SnapshotWallet {
   address?: string;
@@ -32,6 +33,7 @@ export const snapshotMap = new Map<string, SnapshotWallet[]>()
   .set('dl-vota', dlVota)
   .set('dl-athensdao', dlAthDao)
   .set('dl-islanddao', dlIslandDao)
+  .set('dl-dot-ser', dlDotSer)
 
 export const snapshots: Snapshot[] = [
   {
@@ -81,5 +83,13 @@ export const snapshots: Snapshot[] = [
     name: "Dean's List Vota",
     description: "Used Vota governance",
     address: "82vybRHyD6X6g4xMn8WZtQ3VxppQfGHTu9jF5Mnqwc1X",
+  },
+  {
+    type: 'domain',
+    minimumAmount: 1,
+    id: "dl-dot-ser",
+    name: ".ser Domain Holder",
+    description: "Own one or more .ser domains",
+    address: "4U6kwibVcLwtXGkh2k6DYhvkYrTRGxF1e4tVv4SCgN6e",
   }
 ]

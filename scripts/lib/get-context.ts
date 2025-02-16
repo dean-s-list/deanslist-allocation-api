@@ -16,7 +16,9 @@ export async function getContext(snapshot: Snapshot) {
 
   const snapshotFile = `${process.cwd()}/src/snapshots/${snapshot.id}.json`
   if (!existsSync(snapshotFile)) {
-    throw new Error('Target file does not exist')
+    // Create the file if it doesn't exist
+    writeFileSync(snapshotFile, JSON.stringify([], null, 2))
+    console.log(' => Created target file:', snapshotFile)
   }
 
   const helius = new Helius(endpoint.includes('=') ? endpoint.split('=')[1] : endpoint)
