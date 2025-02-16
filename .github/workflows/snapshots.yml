@@ -23,6 +23,9 @@ jobs:
           cache: 'pnpm'
       - run: pnpm install
 
+      - name: Set up environment variables
+        run: echo "HELIUS_ENDPOINT=${{ secrets.HELIUS_ENDPOINT }}" >> $GITHUB_ENV
+
       - name: Run snapshot
         run: pnpm snapshot
 
