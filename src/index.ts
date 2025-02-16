@@ -25,6 +25,9 @@ function getOrigins(c: Context): string[] {
 function getConnection(c: Context): Connection {
   const e = getEnv(c);
   const endpoint: string = getEnv(c).HELIUS_ENDPOINT;
+  if(!endpoint.length) {
+    throw new Error("HELIUS_ENDPOINT is not set");
+  }
 
   return new Connection(endpoint);
 }
