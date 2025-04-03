@@ -7,6 +7,7 @@ import dlAthDao from './snapshots/dl-athensdao.json' assert {type: 'json'}
 import dlIslandDao from './snapshots/dl-islanddao.json' assert {type: 'json'}
 import dlDotSer from './snapshots/dl-dot-ser.json' assert {type: 'json'}
 import solanaSaga from './snapshots/solana-saga.json' assert {type: 'json'}
+import solanaSeeker from './snapshots/solana-seeker.json' assert {type: 'json'}
 
 export type SnapshotType = 'nft' | 'token' | 'domain' | 'static'
 
@@ -36,6 +37,7 @@ export const snapshotMap = new Map<string, SnapshotWallet[]>()
     .set('dl-islanddao', dlIslandDao)
     .set('dl-dot-ser', dlDotSer)
     .set('solana-saga', solanaSaga)
+    .set('solana-seeker', solanaSeeker)
 
 export const snapshots: Snapshot[] = [
     {
@@ -101,5 +103,13 @@ export const snapshots: Snapshot[] = [
         name: "Solana Saga Owner",
         description: "Own a Solana Saga phone",
         address: "46pcSL5gmjBrPqGKFaLbbCmR6iVuLJbnQy13hAe7s6CC",
+    },
+    {
+        type: 'token',
+        minimumAmount: 1,
+        id: "solana-seeker",
+        name: "Solana Seeker Pre-order",
+        description: "Has pre-ordered a Solana Seeker phone",
+        address: "2DMMamkkxQ6zDMBtkFp8KH7FoWzBMBA1CGTYwom4QH6Z",
     }
 ]
