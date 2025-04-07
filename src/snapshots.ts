@@ -50,8 +50,8 @@ export const snapshots: Snapshot[] = [
         type: 'token',
         minimumAmount: 69000000000,
         id: "deanslist-token-holders",
-        name: "$ISLAND Token Holders",
-        description: "Own 69,000 $ISLAND tokens or more.",
+        name: "Dean's List Token Holders",
+        description: "Own 69,000 $DEAN tokens or more.",
         address: "Ds52CDgqdWbTWsua1hgT3AuSSy4FNx2Ezge1br3jQ14a",
     },
     {
