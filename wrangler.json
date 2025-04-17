@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "compatibility_date": "2025-01-31",
   "vars": {
-    "ALLOWED_ORIGINS": "http://localhost:5173;https://eligibility.deanslist.services;https://eligibility.island-dao.com"
+    "ALLOWED_ORIGINS": "http://localhost:5173;https://eligibility.deanslist.services;https://eligibility.island-dao.com;https://eligibility.islanddao.org;https://islanddao.org"
   },
   "compatibility_flags": [
     "nodejs_compat"
