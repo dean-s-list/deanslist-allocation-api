@@ -105,7 +105,7 @@ export const snapshots: Snapshot[] = [
         address: "46pcSL5gmjBrPqGKFaLbbCmR6iVuLJbnQy13hAe7s6CC",
     },
     {
-        type: 'token',
+        type: 'static',
         minimumAmount: 1,
         id: "solana-seeker",
         name: "Solana Seeker Pre-order",
