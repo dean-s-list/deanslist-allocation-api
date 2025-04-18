@@ -8,6 +8,7 @@ import dlIslandDao from './snapshots/dl-islanddao.json' assert {type: 'json'}
 import dlDotSer from './snapshots/dl-dot-ser.json' assert {type: 'json'}
 import solanaSaga from './snapshots/solana-saga.json' assert {type: 'json'}
 import solanaSeeker from './snapshots/solana-seeker.json' assert {type: 'json'}
+import solflareAmbassadors from './snapshots/solflare-ambassadors.json' assert {type: 'json'}
 
 export type SnapshotType = 'nft' | 'token' | 'domain' | 'static'
 
@@ -38,14 +39,15 @@ export const snapshotMap = new Map<string, SnapshotWallet[]>()
     .set('dl-dot-ser', dlDotSer)
     .set('solana-saga', solanaSaga)
     .set('solana-seeker', solanaSeeker)
+    .set('solflare-ambassadors', solflareAmbassadors)
 
 export const snapshots: Snapshot[] = [
     {
         type: 'nft',
         minimumAmount: 1,
         id: "deanslist-gen1",
-        name: "Dean's List NFT Gen 1",
-        description: "Own a Dean's List NFT Gen 1.",
+        name: "IslandDAO NFT Gen 1",
+        description: "Own a IslandDAO (formerly known as Dean's List) NFT Gen 1",
         address: "5FusHaKEKjfKsmQwXNrhFcFABGGxu7iYCdbvyVSRe3Ri",
     },
     {
@@ -53,7 +55,7 @@ export const snapshots: Snapshot[] = [
         minimumAmount: 69000000000,
         id: "deanslist-token-holders",
         name: "$ISLAND Token Holders",
-        description: "Own 69,000 $ISLAND tokens or more.",
+        description: "Own 69,000 $ISLAND tokens or more (previously known as $DEAN).",
         address: "Ds52CDgqdWbTWsua1hgT3AuSSy4FNx2Ezge1br3jQ14a",
     },
     {
@@ -61,7 +63,7 @@ export const snapshots: Snapshot[] = [
         minimumAmount: 1,
         id: "dl-athensdao",
         name: "AthensDAO Participants",
-        description: "Attended AthensDAO",
+        description: "Attended any AthensDAO",
         address: "",
     },
     {
@@ -69,22 +71,22 @@ export const snapshots: Snapshot[] = [
         minimumAmount: 1,
         id: "dl-islanddao",
         name: "IslandDAO Participants",
-        description: "Attended IslandDAO",
+        description: "Attended any IslandDAO",
         address: "",
     },
     {
         type: 'static',
         minimumAmount: 1,
         id: "dl-futards",
-        name: "Dean's List Futards",
-        description: "Participated in Futarchy governance",
+        name: "Futard",
+        description: "Traded on at least one Futarchy proposal",
         address: "2K9ZpC3LVqRfR8Vveo92LhiofbDcF6PuDRJbaPp9V34m",
     },
     {
         type: 'static',
         minimumAmount: 1,
         id: "dl-vota",
-        name: "Dean's List Vota",
+        name: "Vota",
         description: "Used Vota governance",
         address: "82vybRHyD6X6g4xMn8WZtQ3VxppQfGHTu9jF5Mnqwc1X",
     },
@@ -93,7 +95,7 @@ export const snapshots: Snapshot[] = [
         minimumAmount: 1,
         id: "dl-dot-ser",
         name: ".ser Domain Holder",
-        description: "Own one or more .ser domains",
+        description: "Own at least one .ser domain",
         address: "4U6kwibVcLwtXGkh2k6DYhvkYrTRGxF1e4tVv4SCgN6e",
     },
     {
@@ -101,7 +103,7 @@ export const snapshots: Snapshot[] = [
         minimumAmount: 1,
         id: "solana-saga",
         name: "Solana Saga Owner",
-        description: "Own a Solana Saga phone",
+        description: "Own a SAGA Genesis NFT",
         address: "46pcSL5gmjBrPqGKFaLbbCmR6iVuLJbnQy13hAe7s6CC",
     },
     {
@@ -111,5 +113,13 @@ export const snapshots: Snapshot[] = [
         name: "Solana Seeker Pre-order",
         description: "Has pre-ordered a Solana Seeker phone",
         address: "2DMMamkkxQ6zDMBtkFp8KH7FoWzBMBA1CGTYwom4QH6Z",
+    },
+    {
+        type: 'static',
+        minimumAmount: 1,
+        id: "solflare-ambassadors",
+        name: "Solflare",
+        description: "Solfare Ambassadors",
+        address: "",
     }
 ]
