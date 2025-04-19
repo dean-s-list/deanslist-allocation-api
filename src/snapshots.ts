@@ -9,6 +9,8 @@ import dlDotSer from './snapshots/dl-dot-ser.json' assert {type: 'json'}
 import solanaSaga from './snapshots/solana-saga.json' assert {type: 'json'}
 import solanaSeeker from './snapshots/solana-seeker.json' assert {type: 'json'}
 import solflareAmbassadors from './snapshots/solflare-ambassadors.json' assert {type: 'json'}
+import smbGen2 from './snapshots/smb-gen2.json' assert {type: 'json'}
+import smbGen3 from './snapshots/smb-gen3.json' assert {type: 'json'}
 
 export type SnapshotType = 'nft' | 'token' | 'domain' | 'static'
 
@@ -40,6 +42,8 @@ export const snapshotMap = new Map<string, SnapshotWallet[]>()
     .set('solana-saga', solanaSaga)
     .set('solana-seeker', solanaSeeker)
     .set('solflare-ambassadors', solflareAmbassadors)
+    .set('smb-gen2', smbGen2)
+    .set('smb-gen3', smbGen3)
 
 export const snapshots: Snapshot[] = [
     {
@@ -121,5 +125,21 @@ export const snapshots: Snapshot[] = [
         name: "Solflare",
         description: "Solfare Ambassadors.",
         address: "",
+    },
+    {
+        type: 'nft',
+        minimumAmount: 1,
+        id: "smb-gen2",
+        name: "SMB Gen2",
+        description: "Own a Gen2 Monke.",
+        address: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+    },
+    {
+        type: 'nft',
+        minimumAmount: 1,
+        id: "smb-gen3",
+        name: "SMB Gen3",
+        description: "Own a Gen3 Monke.",
+        address: "8Rt3Ayqth4DAiPnW9MDFi63TiQJHmohfTWLMQFHi4KZH",
     }
 ]
