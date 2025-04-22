@@ -12,6 +12,7 @@ import solflareAmbassadors from './snapshots/solflare-ambassadors.json' assert {
 import smbGen2 from './snapshots/smb-gen2.json' assert {type: 'json'}
 import smbGen3 from './snapshots/smb-gen3.json' assert {type: 'json'}
 import greedAcademy from './snapshots/greed-academy.json' assert {type: 'json'}
+import cabanaExchange from './snapshots/cabana-exchange.json' assert {type: 'json'}
 
 export type SnapshotType = 'nft' | 'token' | 'domain' | 'static'
 
@@ -46,6 +47,7 @@ export const snapshotMap = new Map<string, SnapshotWallet[]>()
     .set('smb-gen2', smbGen2)
     .set('smb-gen3', smbGen3)
     .set('greed-academy', greedAcademy)
+    .set('cabana-exchange', cabanaExchange)
 
 export const snapshots: Snapshot[] = [
     {
@@ -150,6 +152,14 @@ export const snapshots: Snapshot[] = [
         id: "greed-academy",
         name: "GREED Academy",
         description: "Season 1 Graduates.",
+        address: "",
+    },
+    {
+        type: 'static',
+        minimumAmount: 1,
+        id: "cabana-exchange",
+        name: "Cabana Exchange",
+        description: "Cabana Exchange Community Members.",
         address: "",
     }
 ]
