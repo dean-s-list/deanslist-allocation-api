@@ -177,7 +177,7 @@ export const snapshots: Snapshot[] = [
         address: "",
     },
     {
-        type: 'nft',
+        type: 'static',
         minimumAmount: 1,
         id: "superteam-balkans",
         name: "Superteam Balkans",
@@ -185,7 +185,7 @@ export const snapshots: Snapshot[] = [
         address: "2oboxGFg9m3tBsvsAg4jLgWo1TRHMqPi7XPvBi1pAFjx",
     },
     {
-        type: 'nft',
+        type: 'static',
         minimumAmount: 1,
         id: "superteam-canada",
         name: "Superteam Canada",
@@ -193,7 +193,7 @@ export const snapshots: Snapshot[] = [
         address: "HbYWz8Tp1PZT2udiYUwhjdG2YUVGSapYT1BHgjA5wWuM",
     },
     {
-        type: 'nft',
+        type: 'static',
         minimumAmount: 1,
         id: "superteam-germany",
         name: "Superteam Germany",
@@ -201,7 +201,7 @@ export const snapshots: Snapshot[] = [
         address: "UeXfwweGMBV8JkTQ7pFF6shPR9EiKEg8VnTNF4qKjhh",
     },
     {
-        type: 'nft',
+        type: 'static',
         minimumAmount: 1,
         id: "superteam-india",
         name: "Superteam India",
@@ -209,7 +209,7 @@ export const snapshots: Snapshot[] = [
         address: "E4ToMjm8YtRyfPUhZ7hxRMxe4J8FnSr9CcprytZBYFua",
     },
     {
-        type: 'nft',
+        type: 'static',
         minimumAmount: 1,
         id: "superteam-japan",
         name: "Superteam Japan",
@@ -217,7 +217,7 @@ export const snapshots: Snapshot[] = [
         address: "EcseidwKLqvXDbkjFs9uNBzBaq5vkJ4NJTjc3nuaVViT",
     },
     {
-        type: 'nft',
+        type: 'static',
         minimumAmount: 1,
         id: "superteam-poland",
         name: "Superteam Poland",
@@ -225,7 +225,7 @@ export const snapshots: Snapshot[] = [
         address: "GxAsSQswCsUhw75Fq4C7LVcJrQ1cY2r2Y5ZR1R97W3oa",
     },
     {
-        type: 'nft',
+        type: 'static',
         minimumAmount: 1,
         id: "superteam-uk",
         name: "Superteam UK",
