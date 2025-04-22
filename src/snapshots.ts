@@ -11,6 +11,7 @@ import solanaSeeker from './snapshots/solana-seeker.json' assert {type: 'json'}
 import solflareAmbassadors from './snapshots/solflare-ambassadors.json' assert {type: 'json'}
 import smbGen2 from './snapshots/smb-gen2.json' assert {type: 'json'}
 import smbGen3 from './snapshots/smb-gen3.json' assert {type: 'json'}
+import greedAcademy from './snapshots/greed-academy.json' assert {type: 'json'}
 
 export type SnapshotType = 'nft' | 'token' | 'domain' | 'static'
 
@@ -44,6 +45,7 @@ export const snapshotMap = new Map<string, SnapshotWallet[]>()
     .set('solflare-ambassadors', solflareAmbassadors)
     .set('smb-gen2', smbGen2)
     .set('smb-gen3', smbGen3)
+    .set('greed-academy', greedAcademy)
 
 export const snapshots: Snapshot[] = [
     {
@@ -141,5 +143,13 @@ export const snapshots: Snapshot[] = [
         name: "SMB Gen3",
         description: "Own a Gen3 Monke.",
         address: "8Rt3Ayqth4DAiPnW9MDFi63TiQJHmohfTWLMQFHi4KZH",
+    },
+    {
+        type: 'static',
+        minimumAmount: 1,
+        id: "greed-academy",
+        name: "GREED Academy",
+        description: "Season 1 Graduates.",
+        address: "",
     }
 ]
