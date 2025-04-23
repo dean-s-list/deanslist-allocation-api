@@ -38,6 +38,7 @@ export interface Snapshot {
     id: string
     description: string
     allocations?: SnapshotWallet[]
+    image?: string
 }
 
 export const snapshotMap = new Map<string, SnapshotWallet[]>()
@@ -73,6 +74,7 @@ export const snapshots: Snapshot[] = [
         name: "IslandDAO NFT Gen 1",
         description: "Own a IslandDAO (formerly known as Dean's List) NFT Gen 1.",
         address: "5FusHaKEKjfKsmQwXNrhFcFABGGxu7iYCdbvyVSRe3Ri",
+        image: "https://pbs.twimg.com/profile_images/1828831320140632078/tSQjzteO_400x400.jpg",
     },
     {
         type: 'token',
@@ -81,6 +83,7 @@ export const snapshots: Snapshot[] = [
         name: "$ISLAND Token Holders",
         description: "Own 69,000 $ISLAND (formerly known as $DEAN) tokens or more.",
         address: "Ds52CDgqdWbTWsua1hgT3AuSSy4FNx2Ezge1br3jQ14a",
+        image: "https://pbs.twimg.com/profile_images/1828831320140632078/tSQjzteO_400x400.jpg",
     },
     {
         type: 'static',
@@ -89,6 +92,7 @@ export const snapshots: Snapshot[] = [
         name: "AthensDAO Participants",
         description: "Attended any AthensDAO.",
         address: "",
+        image: "https://pbs.twimg.com/profile_images/1716506328254873600/NjpXZWrs_400x400.jpg",
     },
     {
         type: 'static',
@@ -97,6 +101,7 @@ export const snapshots: Snapshot[] = [
         name: "IslandDAO Participants",
         description: "Attended any IslandDAO.",
         address: "",
+        image: "https://pbs.twimg.com/profile_images/1828831320140632078/tSQjzteO_400x400.jpg",
     },
     {
         type: 'static',
@@ -105,6 +110,7 @@ export const snapshots: Snapshot[] = [
         name: "Futard",
         description: "Traded on at least one Futarchy proposal.",
         address: "2K9ZpC3LVqRfR8Vveo92LhiofbDcF6PuDRJbaPp9V34m",
+        image: "https://pbs.twimg.com/profile_images/1717367001776099328/MbO6f8Su_400x400.jpg",
     },
     {
         type: 'static',
@@ -113,6 +119,7 @@ export const snapshots: Snapshot[] = [
         name: "Vota",
         description: "Used Vota governance.",
         address: "82vybRHyD6X6g4xMn8WZtQ3VxppQfGHTu9jF5Mnqwc1X",
+        image: "https://pbs.twimg.com/profile_images/1803054853331009537/KFzEaIe8_400x400.png",
     },
     {
         type: 'domain',
@@ -121,6 +128,7 @@ export const snapshots: Snapshot[] = [
         name: ".ser Domain Holder",
         description: "Own at least one .ser domain.",
         address: "4U6kwibVcLwtXGkh2k6DYhvkYrTRGxF1e4tVv4SCgN6e",
+        image: "https://pbs.twimg.com/profile_images/1859723004705398785/LoFnPgJa_400x400.jpg",
     },
     {
         type: 'nft',
@@ -129,6 +137,7 @@ export const snapshots: Snapshot[] = [
         name: "Solana Saga Owner",
         description: "Own a SAGA Genesis NFT.",
         address: "46pcSL5gmjBrPqGKFaLbbCmR6iVuLJbnQy13hAe7s6CC",
+        image: "https://pbs.twimg.com/profile_images/1890559511011692544/xy69-3gJ_400x400.jpg",
     },
     {
         type: 'static',
@@ -137,6 +146,7 @@ export const snapshots: Snapshot[] = [
         name: "Solana Seeker Pre-order",
         description: "Pre-ordered a Solana Seeker phone.",
         address: "2DMMamkkxQ6zDMBtkFp8KH7FoWzBMBA1CGTYwom4QH6Z",
+        image: "https://pbs.twimg.com/profile_images/1894058643017867264/pRxSCynQ_400x400.jpg",
     },
     {
         type: 'static',
@@ -145,6 +155,7 @@ export const snapshots: Snapshot[] = [
         name: "Solflare",
         description: "Solfare Ambassadors.",
         address: "",
+        image: "https://pbs.twimg.com/profile_images/1902360413561565184/EqQUAbuD_400x400.jpg",
     },
     {
         type: 'nft',
@@ -153,6 +164,7 @@ export const snapshots: Snapshot[] = [
         name: "SMB Gen2",
         description: "Own a Gen2 Monke.",
         address: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+        image: "https://pbs.twimg.com/profile_images/1520205713221382144/TM27IHMP_400x400.jpg",
     },
     {
         type: 'nft',
@@ -161,6 +173,7 @@ export const snapshots: Snapshot[] = [
         name: "SMB Gen3",
         description: "Own a Gen3 Monke.",
         address: "8Rt3Ayqth4DAiPnW9MDFi63TiQJHmohfTWLMQFHi4KZH",
+        image: "https://pbs.twimg.com/profile_images/1520205713221382144/TM27IHMP_400x400.jpg",
     },
     {
         type: 'static',
@@ -169,6 +182,7 @@ export const snapshots: Snapshot[] = [
         name: "GREED Academy",
         description: "Season 1 Graduates.",
         address: "",
+        image: "https://pbs.twimg.com/profile_images/1882485649493643264/n-Y_Nn3H_400x400.jpg",
     },
     {
         type: 'static',
@@ -177,6 +191,7 @@ export const snapshots: Snapshot[] = [
         name: "Cabana Exchange",
         description: "Cabana Exchange Community Members.",
         address: "",
+        image: "https://pbs.twimg.com/profile_images/1896755183964807168/PCiNYtO4_400x400.jpg",
     },
     {
         type: 'static',
@@ -185,6 +200,7 @@ export const snapshots: Snapshot[] = [
         name: "Superteam Balkans",
         description: "Member of Superteam Balkans.",
         address: "2oboxGFg9m3tBsvsAg4jLgWo1TRHMqPi7XPvBi1pAFjx",
+        image: "https://pbs.twimg.com/profile_images/1900198476664770560/9Nzfdb93_400x400.jpg",
     },
     {
         type: 'static',
@@ -193,6 +209,7 @@ export const snapshots: Snapshot[] = [
         name: "Superteam Canada",
         description: "Member of Superteam Canada.",
         address: "HbYWz8Tp1PZT2udiYUwhjdG2YUVGSapYT1BHgjA5wWuM",
+        image: "https://pbs.twimg.com/profile_images/1859396240280375296/1THFvBWY_400x400.jpg",
     },
     {
         type: 'static',
@@ -201,6 +218,7 @@ export const snapshots: Snapshot[] = [
         name: "Superteam Germany",
         description: "Member of Superteam Germany.",
         address: "UeXfwweGMBV8JkTQ7pFF6shPR9EiKEg8VnTNF4qKjhh",
+        image: "https://pbs.twimg.com/profile_images/1818012057859407872/lHJEv03V_400x400.jpg",
     },
     {
         type: 'static',
@@ -209,6 +227,7 @@ export const snapshots: Snapshot[] = [
         name: "Superteam India",
         description: "Member of Superteam India.",
         address: "E4ToMjm8YtRyfPUhZ7hxRMxe4J8FnSr9CcprytZBYFua",
+        image: "https://pbs.twimg.com/profile_images/1623575742411051008/oFqnid5X_400x400.jpg",
     },
     {
         type: 'static',
@@ -217,6 +236,7 @@ export const snapshots: Snapshot[] = [
         name: "Superteam Japan",
         description: "Member of Superteam Japan.",
         address: "EcseidwKLqvXDbkjFs9uNBzBaq5vkJ4NJTjc3nuaVViT",
+        image: "https://pbs.twimg.com/profile_images/1788400878455783424/0dBONvWy_400x400.jpg",
     },
     {
         type: 'static',
@@ -225,6 +245,7 @@ export const snapshots: Snapshot[] = [
         name: "Superteam Poland",
         description: "Member of Superteam Poland.",
         address: "GxAsSQswCsUhw75Fq4C7LVcJrQ1cY2r2Y5ZR1R97W3oa",
+        image: "https://pbs.twimg.com/profile_images/1897046241441116160/1ltFGahp_400x400.jpg",
     },
     {
         type: 'static',
@@ -233,6 +254,7 @@ export const snapshots: Snapshot[] = [
         name: "Superteam UK",
         description: "Member of Superteam UK.",
         address: "6cRtkJVNQkE5p74PSohPhJQJxvooeHoCrmpDH9Q9q7qm",
+        image: "https://pbs.twimg.com/profile_images/1694127468670566400/CApNBoKT_400x400.jpg",
     },
     {
         type: 'static',
@@ -241,5 +263,6 @@ export const snapshots: Snapshot[] = [
         name: "Streamflow",
         description: "Streamflow Community Member.",
         address: "",
+        image: "https://pbs.twimg.com/profile_images/1808796187258187776/3ly8jWci_400x400.jpg",
     }
 ]
