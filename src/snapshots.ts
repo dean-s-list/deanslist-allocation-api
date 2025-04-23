@@ -20,6 +20,7 @@ import superteamIndia from './snapshots/superteam-india.json' assert {type: 'jso
 import superteamJapan from './snapshots/superteam-japan.json' assert {type: 'json'}
 import superteamPoland from './snapshots/superteam-poland.json' assert {type: 'json'}
 import superteamUK from './snapshots/superteam-uk.json' assert {type: 'json'}
+import streamflowCommunity from './snapshots/streamflow-community.json' assert {type: 'json'}
 
 export type SnapshotType = 'nft' | 'token' | 'domain' | 'static'
 
@@ -62,6 +63,7 @@ export const snapshotMap = new Map<string, SnapshotWallet[]>()
     .set('superteam-japan', superteamJapan)
     .set('superteam-poland', superteamPoland)
     .set('superteam-uk', superteamUK)
+    .set('streamflow-community', streamflowCommunity)
 
 export const snapshots: Snapshot[] = [
     {
@@ -232,4 +234,12 @@ export const snapshots: Snapshot[] = [
         description: "Member of Superteam UK.",
         address: "6cRtkJVNQkE5p74PSohPhJQJxvooeHoCrmpDH9Q9q7qm",
     },
+    {
+        type: 'static',
+        minimumAmount: 1,
+        id: "streamflow-community",
+        name: "Streamflow",
+        description: "Streamflow Community Member.",
+        address: "",
+    }
 ]
