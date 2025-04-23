@@ -9,6 +9,17 @@ import dlDotSer from './snapshots/dl-dot-ser.json' assert {type: 'json'}
 import solanaSaga from './snapshots/solana-saga.json' assert {type: 'json'}
 import solanaSeeker from './snapshots/solana-seeker.json' assert {type: 'json'}
 import solflareAmbassadors from './snapshots/solflare-ambassadors.json' assert {type: 'json'}
+import smbGen2 from './snapshots/smb-gen2.json' assert {type: 'json'}
+import smbGen3 from './snapshots/smb-gen3.json' assert {type: 'json'}
+import greedAcademy from './snapshots/greed-academy.json' assert {type: 'json'}
+import cabanaExchange from './snapshots/cabana-exchange.json' assert {type: 'json'}
+import superteamBalkans from './snapshots/superteam-balkans.json' assert {type: 'json'}
+import superteamCanada from './snapshots/superteam-canada.json' assert {type: 'json'}
+import superteamGermany from './snapshots/superteam-germany.json' assert {type: 'json'}
+import superteamIndia from './snapshots/superteam-india.json' assert {type: 'json'}
+import superteamJapan from './snapshots/superteam-japan.json' assert {type: 'json'}
+import superteamPoland from './snapshots/superteam-poland.json' assert {type: 'json'}
+import superteamUK from './snapshots/superteam-uk.json' assert {type: 'json'}
 
 export type SnapshotType = 'nft' | 'token' | 'domain' | 'static'
 
@@ -40,6 +51,17 @@ export const snapshotMap = new Map<string, SnapshotWallet[]>()
     .set('solana-saga', solanaSaga)
     .set('solana-seeker', solanaSeeker)
     .set('solflare-ambassadors', solflareAmbassadors)
+    .set('smb-gen2', smbGen2)
+    .set('smb-gen3', smbGen3)
+    .set('greed-academy', greedAcademy)
+    .set('cabana-exchange', cabanaExchange)
+    .set('superteam-balkans', superteamBalkans)
+    .set('superteam-canada', superteamCanada)
+    .set('superteam-germany', superteamGermany)
+    .set('superteam-india', superteamIndia)
+    .set('superteam-japan', superteamJapan)
+    .set('superteam-poland', superteamPoland)
+    .set('superteam-uk', superteamUK)
 
 export const snapshots: Snapshot[] = [
     {
@@ -121,5 +143,93 @@ export const snapshots: Snapshot[] = [
         name: "Solflare",
         description: "Solfare Ambassadors.",
         address: "",
-    }
+    },
+    {
+        type: 'nft',
+        minimumAmount: 1,
+        id: "smb-gen2",
+        name: "SMB Gen2",
+        description: "Own a Gen2 Monke.",
+        address: "SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W",
+    },
+    {
+        type: 'nft',
+        minimumAmount: 1,
+        id: "smb-gen3",
+        name: "SMB Gen3",
+        description: "Own a Gen3 Monke.",
+        address: "8Rt3Ayqth4DAiPnW9MDFi63TiQJHmohfTWLMQFHi4KZH",
+    },
+    {
+        type: 'static',
+        minimumAmount: 1,
+        id: "greed-academy",
+        name: "GREED Academy",
+        description: "Season 1 Graduates.",
+        address: "",
+    },
+    {
+        type: 'static',
+        minimumAmount: 1,
+        id: "cabana-exchange",
+        name: "Cabana Exchange",
+        description: "Cabana Exchange Community Members.",
+        address: "",
+    },
+    {
+        type: 'static',
+        minimumAmount: 1,
+        id: "superteam-balkans",
+        name: "Superteam Balkans",
+        description: "Member of Superteam Balkans.",
+        address: "2oboxGFg9m3tBsvsAg4jLgWo1TRHMqPi7XPvBi1pAFjx",
+    },
+    {
+        type: 'static',
+        minimumAmount: 1,
+        id: "superteam-canada",
+        name: "Superteam Canada",
+        description: "Member of Superteam Canada.",
+        address: "HbYWz8Tp1PZT2udiYUwhjdG2YUVGSapYT1BHgjA5wWuM",
+    },
+    {
+        type: 'static',
+        minimumAmount: 1,
+        id: "superteam-germany",
+        name: "Superteam Germany",
+        description: "Member of Superteam Germany.",
+        address: "UeXfwweGMBV8JkTQ7pFF6shPR9EiKEg8VnTNF4qKjhh",
+    },
+    {
+        type: 'static',
+        minimumAmount: 1,
+        id: "superteam-india",
+        name: "Superteam India",
+        description: "Member of Superteam India.",
+        address: "E4ToMjm8YtRyfPUhZ7hxRMxe4J8FnSr9CcprytZBYFua",
+    },
+    {
+        type: 'static',
+        minimumAmount: 1,
+        id: "superteam-japan",
+        name: "Superteam Japan",
+        description: "Member of Superteam Japan.",
+        address: "EcseidwKLqvXDbkjFs9uNBzBaq5vkJ4NJTjc3nuaVViT",
+    },
+    {
+        type: 'static',
+        minimumAmount: 1,
+        id: "superteam-poland",
+        name: "Superteam Poland",
+        description: "Member of Superteam Poland.",
+        address: "GxAsSQswCsUhw75Fq4C7LVcJrQ1cY2r2Y5ZR1R97W3oa",
+    },
+    {
+        type: 'static',
+        minimumAmount: 1,
+        id: "superteam-uk",
+        name: "Superteam UK",
+        description: "Member of Superteam UK.",
+        address: "6cRtkJVNQkE5p74PSohPhJQJxvooeHoCrmpDH9Q9q7qm",
+    },
 ]
