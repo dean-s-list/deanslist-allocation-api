@@ -21,6 +21,7 @@ import superteamJapan from './snapshots/superteam-japan.json' assert {type: 'jso
 import superteamPoland from './snapshots/superteam-poland.json' assert {type: 'json'}
 import superteamUK from './snapshots/superteam-uk.json' assert {type: 'json'}
 import streamflowCommunity from './snapshots/streamflow-community.json' assert {type: 'json'}
+import triadCommunity from './snapshots/triad-community.json' assert {type: 'json'}
 
 export type SnapshotType = 'nft' | 'token' | 'domain' | 'static'
 
@@ -65,6 +66,7 @@ export const snapshotMap = new Map<string, SnapshotWallet[]>()
     .set('superteam-poland', superteamPoland)
     .set('superteam-uk', superteamUK)
     .set('streamflow-community', streamflowCommunity)
+    .set('triad-community', triadCommunity)
 
 export const snapshots: Snapshot[] = [
     {
@@ -264,5 +266,14 @@ export const snapshots: Snapshot[] = [
         description: "Streamflow Community Member.",
         address: "",
         image: "https://pbs.twimg.com/profile_images/1808796187258187776/3ly8jWci_400x400.jpg",
+    },
+    {
+        type: 'static',
+        minimumAmount: 1,
+        id: "triad-community",
+        name: "Triad",
+        description: "Triad Community Member.",
+        address: "69CLccefLRmvDSAJP7Er632dvn878qkpdcnvq5ZUspSm",
+        image: "https://pbs.twimg.com/profile_images/1885150448882950144/RUraa98O_400x400.jpg",
     }
 ]
