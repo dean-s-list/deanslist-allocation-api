@@ -1,4 +1,5 @@
 import deanslistGen1 from './snapshots/deanslist-gen1.json' assert {type: 'json'}
+import islanddaoPerks from './snapshots/islanddao-perks.json' assert {type: 'json'}
 import deanslistTokenHolders from './snapshots/deanslist-token-holders.json' assert {type: 'json'}
 import devs from './snapshots/dev.json' assert {type: 'json'}
 import dlFutards from './snapshots/dl-futards.json' assert {type: 'json'}
@@ -44,6 +45,7 @@ export interface Snapshot {
 
 export const snapshotMap = new Map<string, SnapshotWallet[]>()
     .set('deanslist-gen1', deanslistGen1)
+    .set('islanddao-perks', islanddaoPerks)
     .set('deanslist-token-holders', deanslistTokenHolders)
     .set('devs', devs)
     .set('dl-futards', dlFutards)
@@ -77,6 +79,15 @@ export const snapshots: Snapshot[] = [
         description: "Own a IslandDAO (formerly known as Dean's List) NFT Gen 1.",
         address: "5FusHaKEKjfKsmQwXNrhFcFABGGxu7iYCdbvyVSRe3Ri",
         image: "https://pbs.twimg.com/profile_images/1828831320140632078/tSQjzteO_400x400.jpg",
+    },
+    {
+        type: 'nft',
+        minimumAmount: 1,
+        id: "islanddao-perks",
+        name: "IslandDAO PERKS NFT",
+        description: "Own a IslandDAO PERKS NFT.",
+        address: "5XSXoWkcmynUSiwoi7XByRDiV9eomTgZQywgWrpYzKZ8",
+        image: "https://uploader.irys.xyz/8GYvKSGCV5NXNViixqLTyb2Y8cQqSTqGoPEQU56uifFy",
     },
     {
         type: 'token',
