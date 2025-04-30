@@ -45,7 +45,7 @@
   },
   {
     "address": "7dAze3qmPPeWNnvJnfrQsiPMgV59F4UhcghzZKokmorU",
-    "amount": 6
+    "amount": 7
   },
   {
     "address": "kruHL3zJ1Mcbdibsna5xM6yMp7PZZ4BsNTpj2UMgvZC",
@@ -417,6 +417,10 @@
   },
   {
     "address": "8ntPHJkJGXK4qdQGoc9uzwsTow8a9q8Z7oyHEzvF5rsU",
+    "amount": 1
+  },
+  {
+    "address": "8zK2qxpY9qT4N8if5mBEzQzRtRBu8Mt86dMf6fU2pULG",
     "amount": 1
   },
   {
