@@ -16,12 +16,12 @@
     "amount": 15
   },
   {
-    "address": "BcgYRPQC4mE3e195FmTx4mspmGbDx5xdcdKuLwNG89ov",
+    "address": "1BWutmTvYPwDtmw9abTkS4Ssr8no61spGAvW1X6NDix",
     "amount": 14
   },
   {
-    "address": "1BWutmTvYPwDtmw9abTkS4Ssr8no61spGAvW1X6NDix",
-    "amount": 11
+    "address": "BcgYRPQC4mE3e195FmTx4mspmGbDx5xdcdKuLwNG89ov",
+    "amount": 14
   },
   {
     "address": "7pPJt2xoEoPy8x8Hf2D6U6oLfNa5uKmHHRwkENVoaxmA",
@@ -69,10 +69,6 @@
   },
   {
     "address": "7zND8YAtCYehNoa1JrfDLQZi44xJkEuPWK5b4CkiuFpo",
-    "amount": 5
-  },
-  {
-    "address": "GxEmQ2XcxsismsX4s4jbiEubuBtqax67Pa8g25AgGXwN",
     "amount": 5
   },
   {
@@ -233,6 +229,10 @@
   },
   {
     "address": "GuxAPwbZ5jqt5tKjGUWDUuUM9GhMXopdSmkJPn1eQWBU",
+    "amount": 2
+  },
+  {
+    "address": "GxEmQ2XcxsismsX4s4jbiEubuBtqax67Pa8g25AgGXwN",
     "amount": 2
   },
   {
