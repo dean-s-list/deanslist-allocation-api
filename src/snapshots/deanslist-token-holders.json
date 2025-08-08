@@ -25,7 +25,7 @@
   },
   {
     "address": "HCAkuRvzeg8LEfKrns1ekMKwcExej2LExkKd8qK4jtM2",
-    "amount": 4387222542758
+    "amount": 4417178123651
   },
   {
     "address": "6yujo5tRQNZrh6upsm2MnAHv1LrLYVjKnDtLbHR4rwhr",
@@ -145,7 +145,7 @@
   },
   {
     "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
-    "amount": 454087300648
+    "amount": 456063972344
   },
   {
     "address": "8M5srrpdw7J2mMv5zLLNjTbqinCF9YY9fGiJyjireKmC",
@@ -268,10 +268,6 @@
     "amount": 145398406374
   },
   {
-    "address": "8e7RzFMErQc4dcRJ2TQURcuaGrcgeSJUXPFv4T3asmbd",
-    "amount": 133408887489
-  },
-  {
     "address": "HRLdZUitTR6ekSWqR8VqmYnEDVnDy8jhkJPB24t9hoB7",
     "amount": 129773000000
   },
@@ -310,6 +306,10 @@
   {
     "address": "8uZ4Lx9E5CrkzviAAnR8jz3PNP6Cqg4ZLLVSqtWn1tqc",
     "amount": 103034600879
+  },
+  {
+    "address": "8e7RzFMErQc4dcRJ2TQURcuaGrcgeSJUXPFv4T3asmbd",
+    "amount": 100813783850
   },
   {
     "address": "3s6VUe21HFVEC6j12bPXLcrBHMkTZ66847853pXWXspr",
@@ -1229,7 +1229,7 @@
   },
   {
     "address": "DZtwzGbCsRRQLE8cxt3zB4iTXWydrKvFZcgAX1XpbQTf",
-    "amount": 4353221748
+    "amount": 4369066070
   },
   {
     "address": "Hqk4EYVyKnegLrZkXYG8cvU9GfqFEjyD597hH49HHsRU",
@@ -1642,6 +1642,10 @@
   {
     "address": "HFwi9HgNtFcMwNJPHa1czrPhuxeZFZ7G9tPQ1LqAd7sy",
     "amount": 999000000
+  },
+  {
+    "address": "H7q8zE2gXsWqraa6UCCLCk31zpFwjigMxBfxNDz3gW6c",
+    "amount": 963397792
   },
   {
     "address": "AShsYnEnyvQhw3Hv5L494DapmH1EjjGwwWhX6LaegCY4",
@@ -2060,10 +2064,6 @@
     "amount": 265773090
   },
   {
-    "address": "3cJDqUPRUrDaRBr98FphgUMPt3R5Rfu7S64KPVuzLqhQ",
-    "amount": 259445753
-  },
-  {
     "address": "8w47RFricQJSX7GcY6sMCejirKF68WWFujFYC824m3Rv",
     "amount": 250000000
   },
@@ -2314,10 +2314,6 @@
   {
     "address": "JCpyouqGcPjw9eCqakcv15AeT8wwgjce92nJk7A545K5",
     "amount": 60829970
-  },
-  {
-    "address": "H7q8zE2gXsWqraa6UCCLCk31zpFwjigMxBfxNDz3gW6c",
-    "amount": 56945311
   },
   {
     "address": "DY8yD5UqTYHB6dG5rCkj3xERcXnHm4JKbFuE8pozbyAY",
