@@ -36,10 +36,6 @@
     "amount": 1
   },
   {
-    "address": "2sVE4nQXwqxgJ33Pbz8D7QLShYjKpAT2bbJbMgA7EeaC",
-    "amount": 1
-  },
-  {
     "address": "32gSMKc9bvA49TNgGwbvvkqnxaSyjCe2ULJG7wwwFUdH",
     "amount": 1
   },
@@ -221,6 +217,10 @@
   },
   {
     "address": "EXRBCP2MX6hRAt4oh61k5mhL6WhmUXPemfzNssUpM4S6",
+    "amount": 1
+  },
+  {
+    "address": "EyWn4fqq4mmkmYoWrCHLYcFLCuD7uagEZTy9idjgsfiG",
     "amount": 1
   },
   {
