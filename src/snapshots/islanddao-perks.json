@@ -17,7 +17,7 @@
   },
   {
     "address": "1BWutmTvYPwDtmw9abTkS4Ssr8no61spGAvW1X6NDix",
-    "amount": 17
+    "amount": 15
   },
   {
     "address": "2rdAG46kJdmsQMSFuVYWQsatsq5UTm6oVZWVXPrCMpsx",
@@ -105,6 +105,10 @@
   },
   {
     "address": "6eGKgDhFAaLYkxoDMyx2NU4RyrSKfCXdRmqtjT7zodxQ",
+    "amount": 3
+  },
+  {
+    "address": "6S7291Xcz3Cr94irB8tCQjym5y7ZvNB67owDaCeCpvLx",
     "amount": 3
   },
   {
@@ -789,10 +793,6 @@
   },
   {
     "address": "vibesVg6zavmBjtoAKEo9TP9XfDwSczL2TZoByDTwDc",
-    "amount": 1
-  },
-  {
-    "address": "VNJ1Jm1Nbm3sRTjD21uxv44couFoQHWVDCntJSv9QCD",
     "amount": 1
   },
   {
