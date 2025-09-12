@@ -25,7 +25,7 @@
   },
   {
     "address": "HCAkuRvzeg8LEfKrns1ekMKwcExej2LExkKd8qK4jtM2",
-    "amount": 4779627961671
+    "amount": 4782799172252
   },
   {
     "address": "6yujo5tRQNZrh6upsm2MnAHv1LrLYVjKnDtLbHR4rwhr",
@@ -105,7 +105,7 @@
   },
   {
     "address": "3wBwqjEGx1AKzQ5SixtAev3M9ivyBgDmyCQTskBWFrtH",
-    "amount": 890413114358
+    "amount": 734228533786
   },
   {
     "address": "FZ482ZtxMkFLoPxbBgfiBEdSofRcTeH1vvnXJv6f4a8",
@@ -238,6 +238,10 @@
   {
     "address": "BtAKFFh1R81qXB6ZuaLkMFsZ49so9ZgEpqRK4qgsyuy",
     "amount": 170640793841
+  },
+  {
+    "address": "7bq2HhNapAkhcaSvqEpKk7vCL5BDjUdqM3JurwZ1k1FW",
+    "amount": 156184580572
   },
   {
     "address": "G4qZbiVNb6HKb3DLRkqCcLVtMtskQU6NfNeXHfJ14z8s",
@@ -1217,7 +1221,7 @@
   },
   {
     "address": "DZtwzGbCsRRQLE8cxt3zB4iTXWydrKvFZcgAX1XpbQTf",
-    "amount": 4703861328
+    "amount": 4705447726
   },
   {
     "address": "EmTixnsPTjSZr7ovaezKyoHPfLdjFrjuCZKEeDmDsQUC",
@@ -1294,10 +1298,6 @@
   {
     "address": "J3mXkJESoQAKnP3ccR9m1NpW1vQmvLCeHifUydCQti8z",
     "amount": 3240367451
-  },
-  {
-    "address": "ABbCs97w2fCnfhSL1HsXEUurwb71ELU42v58qtUzac3g",
-    "amount": 3172796979
   },
   {
     "address": "7MBuedEzo2w3EipAMVVCiY1rgdqUqMUFGLX2uD4xQJMu",
