@@ -25,7 +25,7 @@
   },
   {
     "address": "HCAkuRvzeg8LEfKrns1ekMKwcExej2LExkKd8qK4jtM2",
-    "amount": 4895213198772
+    "amount": 4893900108858
   },
   {
     "address": "6yujo5tRQNZrh6upsm2MnAHv1LrLYVjKnDtLbHR4rwhr",
@@ -73,7 +73,7 @@
   },
   {
     "address": "BLBYiq48WcLQ5SxiftyKmPtmsZPUBEnDEjqEnKGAR4zx",
-    "amount": 1196453411267
+    "amount": 1195898989439
   },
   {
     "address": "4yuXCYVKDWiz7ACCwkMuufqcUk5NbvYozMuPX6ip4MYE",
@@ -112,6 +112,10 @@
     "amount": 711118000000
   },
   {
+    "address": "HKRPz3LDqA2prv42QvSp6VocwxQTiHDKeTg4Nenv2y2Y",
+    "amount": 710511968210
+  },
+  {
     "address": "FZ482ZtxMkFLoPxbBgfiBEdSofRcTeH1vvnXJv6f4a8",
     "amount": 700000000000
   },
@@ -128,10 +132,6 @@
     "amount": 591301333913
   },
   {
-    "address": "HKRPz3LDqA2prv42QvSp6VocwxQTiHDKeTg4Nenv2y2Y",
-    "amount": 564685560007
-  },
-  {
     "address": "BkehSEg5tMKi5SL5i5UG9m7FMsnny3TcG4o85VCnvdhw",
     "amount": 558498053343
   },
@@ -145,7 +145,7 @@
   },
   {
     "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
-    "amount": 505104441939
+    "amount": 506417531853
   },
   {
     "address": "92vYpmmQXJXSzYgWJWUjd14Mj4CRp33m4rHetaCMEwez",
@@ -254,10 +254,6 @@
   {
     "address": "37TGrYNu56AxaeojgtAok8tQAsBSxGhvFKXqCYFAbBrA",
     "amount": 148443316498
-  },
-  {
-    "address": "DEANLiszxiKzzTgb5XWjMMQq15aq9Ec1qMzSuzdv8Wqh",
-    "amount": 145826408212
   },
   {
     "address": "47cm45ZsqhSN8FbRU9C5yQeSfjyBnUxUyXhPNuq6CRAE",
@@ -1786,6 +1782,10 @@
   {
     "address": "HejWAp9fEFmYSSQSFXU7MM3HXtGZetcrfTNXf7ymrJaC",
     "amount": 559696725
+  },
+  {
+    "address": "98bVbLMp8fVGwSxuPfbkyDRZKM3N8aDNhU4p8XM5T8yr",
+    "amount": 554421828
   },
   {
     "address": "7WVXugm5cunMU2Fnwfnfi4GTPenTwGeL3aiHiqhCpzZY",
@@ -3322,6 +3322,10 @@
   {
     "address": "Wgwzk1QYJ9N5AL2eNJE1RhmUyeRoxg4fcUh2vSZW3Td",
     "amount": 11
+  },
+  {
+    "address": "DEANLiszxiKzzTgb5XWjMMQq15aq9Ec1qMzSuzdv8Wqh",
+    "amount": 9
   },
   {
     "address": "CnB3fiaCrWMyE9e3r8qN6HsMmGgtGJeh1m1iY88kPeXT",

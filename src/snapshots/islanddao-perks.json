@@ -9,7 +9,7 @@
   },
   {
     "address": "14rghAS2vY4w4BGvm89SRdhwqVGvTZRd6QDmDgsag4Es",
-    "amount": 34
+    "amount": 33
   },
   {
     "address": "3PKhzE9wuEkGPHHu2sNCvG86xNtDJduAcyBPXpE6cSNt",
@@ -789,6 +789,10 @@
   },
   {
     "address": "dumi2Ka71gqaGdJTcfJ3eYUPw6v46qnUXCXRgERcESe",
+    "amount": 1
+  },
+  {
+    "address": "DWKBCnNRwF4GFxXZMpJrGiNeS9XZapDtg7mNoMo4GMpr",
     "amount": 1
   },
   {
