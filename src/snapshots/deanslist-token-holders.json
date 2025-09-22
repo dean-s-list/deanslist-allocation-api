@@ -25,7 +25,7 @@
   },
   {
     "address": "HCAkuRvzeg8LEfKrns1ekMKwcExej2LExkKd8qK4jtM2",
-    "amount": 4908325735391
+    "amount": 4908179396743
   },
   {
     "address": "6yujo5tRQNZrh6upsm2MnAHv1LrLYVjKnDtLbHR4rwhr",
@@ -145,7 +145,7 @@
   },
   {
     "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
-    "amount": 508427537853
+    "amount": 508409064515
   },
   {
     "address": "92vYpmmQXJXSzYgWJWUjd14Mj4CRp33m4rHetaCMEwez",
@@ -424,10 +424,6 @@
     "amount": 54690534323
   },
   {
-    "address": "14rghAS2vY4w4BGvm89SRdhwqVGvTZRd6QDmDgsag4Es",
-    "amount": 54574136105
-  },
-  {
     "address": "7tKaB1GWgc8jpUu5oVtadBt3pZRuyqPKyBWBBdLRyg36",
     "amount": 54071170664
   },
@@ -470,6 +466,10 @@
   {
     "address": "HQTP8yceCGcZjHz1MnQ8Xym6qtu8p2cSX1dh745cdMb5",
     "amount": 45575392731
+  },
+  {
+    "address": "14rghAS2vY4w4BGvm89SRdhwqVGvTZRd6QDmDgsag4Es",
+    "amount": 44574136105
   },
   {
     "address": "5Rt26dQVcxVVvrDZQg9HwGoHmD7PzAevyhCFJ9Fy346L",
@@ -920,6 +920,10 @@
     "amount": 10000000000
   },
   {
+    "address": "55wUarppf8345rXmD1gevwqVNBdJs2bQMQjT3QeDmorL",
+    "amount": 10000000000
+  },
+  {
     "address": "5h4NkJXuQHdPGyzo5JGWmTX6AFwxFxTxt2eNooBcFh3K",
     "amount": 10000000000
   },
@@ -1257,7 +1261,7 @@
   },
   {
     "address": "FtuAnHz7KzBvUVg1K5UswGvwpMiXPZs3Y853fnjZ8hoy",
-    "amount": 3492294160
+    "amount": 3478212191
   },
   {
     "address": "8psNvWTrdNTiVRNzAgsou9kETXNJm2SXZyaKuJraVRtf",
@@ -1488,6 +1492,10 @@
     "amount": 1512257122
   },
   {
+    "address": "8e7RzFMErQc4dcRJ2TQURcuaGrcgeSJUXPFv4T3asmbd",
+    "amount": 1413465561
+  },
+  {
     "address": "GXtd2izAiMJPwMEjfgTRH3d7k9mjn4Jq3JrWFv9gySYy",
     "amount": 1407082544
   },
@@ -1502,10 +1510,6 @@
   {
     "address": "CAjFRRUkkXKVnzGgtEi9vn79EGmBY33dkzY1oFmKjRvo",
     "amount": 1272338349
-  },
-  {
-    "address": "8e7RzFMErQc4dcRJ2TQURcuaGrcgeSJUXPFv4T3asmbd",
-    "amount": 1267126913
   },
   {
     "address": "8F8deNdLgCJrhphSeLoPEyvNeGP3qkGBcCUgJK2bnEAR",
@@ -1628,12 +1632,12 @@
     "amount": 963664451
   },
   {
-    "address": "AShsYnEnyvQhw3Hv5L494DapmH1EjjGwwWhX6LaegCY4",
-    "amount": 934632172
+    "address": "8sPfCZvm6UpdE981SEQ4QDTX7oabRbSvN2Z7mZAoKEw3",
+    "amount": 959321172
   },
   {
-    "address": "8sPfCZvm6UpdE981SEQ4QDTX7oabRbSvN2Z7mZAoKEw3",
-    "amount": 926765865
+    "address": "AShsYnEnyvQhw3Hv5L494DapmH1EjjGwwWhX6LaegCY4",
+    "amount": 934632172
   },
   {
     "address": "5tBazXiW1JeLMCC4wjfdpwm8qhg5xKoSmnp3QEUc7ggr",

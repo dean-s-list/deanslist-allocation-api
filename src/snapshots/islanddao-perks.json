@@ -5,7 +5,7 @@
   },
   {
     "address": "1BWutmTvYPwDtmw9abTkS4Ssr8no61spGAvW1X6NDix",
-    "amount": 168
+    "amount": 167
   },
   {
     "address": "14rghAS2vY4w4BGvm89SRdhwqVGvTZRd6QDmDgsag4Es",
@@ -36,15 +36,15 @@
     "amount": 10
   },
   {
-    "address": "BumrJWH5kf4MXZ5bEg7VyZY6oXAMr78jXC1mFiDAE3u3",
-    "amount": 10
-  },
-  {
     "address": "GNa9E2dWP8e2fg23pRJoiCvJm5cbzomm94YzotpcRh7A",
     "amount": 10
   },
   {
     "address": "6bkDMNa1wF3SmKLn6K88MxuYnbqhmNMvgjthp2rjJ5U3",
+    "amount": 9
+  },
+  {
+    "address": "BumrJWH5kf4MXZ5bEg7VyZY6oXAMr78jXC1mFiDAE3u3",
     "amount": 9
   },
   {
@@ -568,6 +568,10 @@
     "amount": 1
   },
   {
+    "address": "93ADWMyLytwVGBQhbMgYALGBT4mxuuCMd6KFJNnrLPmB",
+    "amount": 1
+  },
+  {
     "address": "941cCJXT8VHagLsT4kjTVXN3X22DcBXM99UTsBLBZvii",
     "amount": 1
   },
@@ -769,6 +773,10 @@
   },
   {
     "address": "CtWERMNKhsMy2SX564sCPWVMd9LND8aa4jL3YJzdurbp",
+    "amount": 1
+  },
+  {
+    "address": "CvQf1w1T828bRqfD6fA1rWdCR4ybCsEr6vwHdYPTMfSr",
     "amount": 1
   },
   {
