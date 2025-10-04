@@ -13,7 +13,7 @@
   },
   {
     "address": "HCAkuRvzeg8LEfKrns1ekMKwcExej2LExkKd8qK4jtM2",
-    "amount": 6003542779528
+    "amount": 6034688308938
   },
   {
     "address": "H51HvbNj5Q2mQe7dYT52qJGDgp3WJrftGwQVFPivqBD2",
@@ -37,7 +37,7 @@
   },
   {
     "address": "4pT6ESaMQTgpMs2ZZ81pFF8BieGtY9x4CCK2z6aoYoe4",
-    "amount": 2789301000000
+    "amount": 2792101000000
   },
   {
     "address": "HEnaH4va5F6g9GLNsMmnHp1RpgsuxaANVDLhxtwdf7L8",
@@ -104,10 +104,6 @@
     "amount": 896850250168
   },
   {
-    "address": "BGBPfMFpNMxa2fqCV4pu2nNoTXdKhfsJkAaKv8Zebij3",
-    "amount": 872660000000
-  },
-  {
     "address": "DY9NzNSbbDJk4NYXN2TBMkF8oBbZaq7UYSy3VzKcviNS",
     "amount": 711118000000
   },
@@ -120,6 +116,10 @@
     "amount": 700000000000
   },
   {
+    "address": "BGBPfMFpNMxa2fqCV4pu2nNoTXdKhfsJkAaKv8Zebij3",
+    "amount": 688660000000
+  },
+  {
     "address": "EYwTmGsBWqvVMHb3a2ybCrqG4etcLaTEUDTMdGWmKtR2",
     "amount": 653520657002
   },
@@ -128,12 +128,12 @@
     "amount": 650000000000
   },
   {
-    "address": "3wBwqjEGx1AKzQ5SixtAev3M9ivyBgDmyCQTskBWFrtH",
-    "amount": 636166538542
+    "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+    "amount": 625421712697
   },
   {
-    "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
-    "amount": 622554112867
+    "address": "3wBwqjEGx1AKzQ5SixtAev3M9ivyBgDmyCQTskBWFrtH",
+    "amount": 609678741156
   },
   {
     "address": "6awyHMshBGVjJ3ozdSJdyyDE1CTAXUwrpNMaRGMsb4sf",
@@ -236,12 +236,12 @@
     "amount": 200000000000
   },
   {
-    "address": "BtAKFFh1R81qXB6ZuaLkMFsZ49so9ZgEpqRK4qgsyuy",
-    "amount": 170640793841
+    "address": "37TGrYNu56AxaeojgtAok8tQAsBSxGhvFKXqCYFAbBrA",
+    "amount": 181093316498
   },
   {
-    "address": "37TGrYNu56AxaeojgtAok8tQAsBSxGhvFKXqCYFAbBrA",
-    "amount": 158293316498
+    "address": "BtAKFFh1R81qXB6ZuaLkMFsZ49so9ZgEpqRK4qgsyuy",
+    "amount": 170640793841
   },
   {
     "address": "7bq2HhNapAkhcaSvqEpKk7vCL5BDjUdqM3JurwZ1k1FW",
@@ -258,6 +258,10 @@
   {
     "address": "47cm45ZsqhSN8FbRU9C5yQeSfjyBnUxUyXhPNuq6CRAE",
     "amount": 145398406374
+  },
+  {
+    "address": "3s6VUe21HFVEC6j12bPXLcrBHMkTZ66847853pXWXspr",
+    "amount": 131600129676
   },
   {
     "address": "HRLdZUitTR6ekSWqR8VqmYnEDVnDy8jhkJPB24t9hoB7",
@@ -282,10 +286,6 @@
   {
     "address": "3vdCoFtLCJ86ntvmXw5fDnDEYqwVWo7jV324jyb2TAbo",
     "amount": 110010000000
-  },
-  {
-    "address": "3s6VUe21HFVEC6j12bPXLcrBHMkTZ66847853pXWXspr",
-    "amount": 109200129676
   },
   {
     "address": "HkMYQBPaYCJdxgC8DYKGUpvgq5eoximGioUyCJzpw5LX",
@@ -368,6 +368,10 @@
     "amount": 79811263132
   },
   {
+    "address": "14rghAS2vY4w4BGvm89SRdhwqVGvTZRd6QDmDgsag4Es",
+    "amount": 79740469644
+  },
+  {
     "address": "66YJyffJsfar6iC6evo3qAn9ie3AXQ5H3NYogyX7nTY4",
     "amount": 77278981722
   },
@@ -418,10 +422,6 @@
   {
     "address": "DeANPwRfLrWeFpiDvTQr1ZxunXruPBsYASDZrnaGk7Bp",
     "amount": 56506589926
-  },
-  {
-    "address": "14rghAS2vY4w4BGvm89SRdhwqVGvTZRd6QDmDgsag4Es",
-    "amount": 55740469644
   },
   {
     "address": "Fws2sjs1VATiE63X3sHtksL4XyVNT4TCXAiaHDq2mKQ1",
@@ -488,6 +488,10 @@
     "amount": 40000763219
   },
   {
+    "address": "6N1NhZc8CAk3eZYyRWMkKXAqZrV8LSycURz2aMhmUhAd",
+    "amount": 39173309162
+  },
+  {
     "address": "C8dnVu3BcvXXmwaAFUD3mSjFG4ErZvjb3hCxWqBkbYph",
     "amount": 37144182340
   },
@@ -500,8 +504,8 @@
     "amount": 36395397477
   },
   {
-    "address": "6N1NhZc8CAk3eZYyRWMkKXAqZrV8LSycURz2aMhmUhAd",
-    "amount": 36029522592
+    "address": "ExscEJgBA5bPxmMJ916FnE9EsW3nPqhMGtM6CAm2oQ7d",
+    "amount": 35605194889
   },
   {
     "address": "4syj2xqZMy5cN2Zh5UnHexx1CWJbvKQVwACaXSUVsmUx",
@@ -526,6 +530,10 @@
   {
     "address": "B6YyCVMs9jsPm8ouTDazLsQhSwMQxfHp968HSYLcVXyn",
     "amount": 31169676181
+  },
+  {
+    "address": "7pPJt2xoEoPy8x8Hf2D6U6oLfNa5uKmHHRwkENVoaxmA",
+    "amount": 30899000000
   },
   {
     "address": "8AK1cH1UsVqJzvvK1TqjtkCYYhxCbxtsVdoMWiHY7VUm",
@@ -640,6 +648,10 @@
     "amount": 13783663117
   },
   {
+    "address": "BXBi3adEtpumvjou3Q6hdQ7khzLRrA9CAFMb8ZujohcL",
+    "amount": 13400000000
+  },
+  {
     "address": "HFppr7mxYuNCCPvLAuvSuoThoxdenzJa9gGPdebZnyXt",
     "amount": 13110585855
   },
@@ -658,10 +670,6 @@
   {
     "address": "AErp8UYUay7uBE9i6ULtSDgQP5d3W66n9RJH5QpUG3Uh",
     "amount": 12625580931
-  },
-  {
-    "address": "BXBi3adEtpumvjou3Q6hdQ7khzLRrA9CAFMb8ZujohcL",
-    "amount": 12600000000
   },
   {
     "address": "5W9qYpdZopbYeECWD37W6TXPAU281ALDFTAEDwhoRAwH",
@@ -684,10 +692,6 @@
     "amount": 12284177822
   },
   {
-    "address": "ExscEJgBA5bPxmMJ916FnE9EsW3nPqhMGtM6CAm2oQ7d",
-    "amount": 12005194889
-  },
-  {
     "address": "FbjjJ4igqjKr5JTeNtoRJCGDNkeDggzbiGpZTPSmWT6A",
     "amount": 12000000000
   },
@@ -706,6 +710,10 @@
   {
     "address": "9M9mX9TWLPtDueGtHot2NaDNAfQcFCZMwpyea29uEZBq",
     "amount": 11481993668
+  },
+  {
+    "address": "AWv7rkkT3ydAxHY9okTFkZXxN4CoLaxb7mqmJmqs2XU2",
+    "amount": 11400000000
   },
   {
     "address": "HnYa4g8kPbxbBz2ias9Fg2sf8jHvYHDR1Jk66BpGfwYf",
@@ -872,6 +880,22 @@
     "amount": 10119247952
   },
   {
+    "address": "6Jw8iAXPMwSzhzJpN94mv1YmafWXALSWKTPFfmUUycZk",
+    "amount": 10100000000
+  },
+  {
+    "address": "74gw7r92sbeeGQUiXNB9WQdB6morQLbjw1TsiDo1eE48",
+    "amount": 10100000000
+  },
+  {
+    "address": "7cT1CkiNVB9nReUt8UoZAkA8tViq4Q6TbTXjYWQuoBGd",
+    "amount": 10100000000
+  },
+  {
+    "address": "HhmsHVm7NFbAa8K8EgRQnmqtyouNNA419teqTJMjL7Ax",
+    "amount": 10100000000
+  },
+  {
     "address": "JE7qpsJ3kXCMYcinYgPn4Lm7hogomXmHfEfAKJW1Ygz5",
     "amount": 10100000000
   },
@@ -952,6 +976,10 @@
     "amount": 10000000000
   },
   {
+    "address": "9VN1hV84YeTzTGRzjQ94WJeCktM3SZdPJxeEtsroMdTr",
+    "amount": 10000000000
+  },
+  {
     "address": "AGpSxqPMS7UBnAC4feVBnYev5Txg3otabAZnCGeoya8j",
     "amount": 10000000000
   },
@@ -984,6 +1012,10 @@
     "amount": 9912728367
   },
   {
+    "address": "H29ypXJhoKJsWGdU6zh94QMF1scF8MRk7keexN17LMiK",
+    "amount": 9900000000
+  },
+  {
     "address": "EUisgNmineB4u1WA8K1UDCZMGdXjuPjwGQuZq3RtLq1d",
     "amount": 9890124617
   },
@@ -992,8 +1024,24 @@
     "amount": 9632264997
   },
   {
+    "address": "31rYmSgGicQmAgC3TyePxx6TpEiQNCy5MfvER39T7z7x",
+    "amount": 9600000000
+  },
+  {
+    "address": "537cs3UbegKWjk8hqReF5i3qeRrHdpRB9aXzVLTWMNuy",
+    "amount": 9600000000
+  },
+  {
     "address": "4Q2r2SLYEGTsuvcJJbAPLEKc63uZePHudVoxT4i3ECAf",
     "amount": 9259111727
+  },
+  {
+    "address": "H1NUQfxCZFxmxx5PkEQP5cf5bkaBXC5nPwDwNRz6J6U5",
+    "amount": 9200000000
+  },
+  {
+    "address": "6S7291Xcz3Cr94irB8tCQjym5y7ZvNB67owDaCeCpvLx",
+    "amount": 9001000000
   },
   {
     "address": "79suML2gkXyPUAc1uuseeXEmZ8svFJLtDzwCr6BmVL5c",
@@ -1004,24 +1052,32 @@
     "amount": 8912428259
   },
   {
-    "address": "537cs3UbegKWjk8hqReF5i3qeRrHdpRB9aXzVLTWMNuy",
-    "amount": 8800000000
-  },
-  {
     "address": "94QRYGvh2pqg5c1qMxt4CghzJYp8Ap9TfaRuBUTjrMH8",
     "amount": 8700252310
   },
   {
-    "address": "AWv7rkkT3ydAxHY9okTFkZXxN4CoLaxb7mqmJmqs2XU2",
-    "amount": 8600000000
+    "address": "Dnhdercq1mqzhcXYybRq2kuuVxPBrVDAy4HTz8z2SuPx",
+    "amount": 8510000000
+  },
+  {
+    "address": "31nk7cgjynPt7d2dJXvcar7ix5zdVA6VxMdiFXzo2QdN",
+    "amount": 8500000000
+  },
+  {
+    "address": "Ng7FTvc5g8jcGDgjd3PCSZmHy9cPYVFNFcVuLvSwwgh",
+    "amount": 8401000000
   },
   {
     "address": "AuvYcaeTbq5WVKbJNcocH51kcNTnYtouKf1ZNubocH7U",
     "amount": 8400000000
   },
   {
-    "address": "7pPJt2xoEoPy8x8Hf2D6U6oLfNa5uKmHHRwkENVoaxmA",
-    "amount": 8099000000
+    "address": "BGH4gAwUbCpH7dkPS5MiifemKdMXB1mjjCGKLtGuHNjU",
+    "amount": 8353983089
+  },
+  {
+    "address": "HxjM8MTRFRnP482QL1dHNAWgNxfBG8PWXYAmXRXLK8Ho",
+    "amount": 8200000000
   },
   {
     "address": "2zmjqCPCmSedNLewmyvVCZomSYK529eKEZcZyz227Nic",
@@ -1040,40 +1096,20 @@
     "amount": 7703692998
   },
   {
-    "address": "31nk7cgjynPt7d2dJXvcar7ix5zdVA6VxMdiFXzo2QdN",
-    "amount": 7700000000
-  },
-  {
-    "address": "6Jw8iAXPMwSzhzJpN94mv1YmafWXALSWKTPFfmUUycZk",
-    "amount": 7700000000
-  },
-  {
-    "address": "74gw7r92sbeeGQUiXNB9WQdB6morQLbjw1TsiDo1eE48",
-    "amount": 7700000000
-  },
-  {
-    "address": "7cT1CkiNVB9nReUt8UoZAkA8tViq4Q6TbTXjYWQuoBGd",
-    "amount": 7700000000
-  },
-  {
-    "address": "HhmsHVm7NFbAa8K8EgRQnmqtyouNNA419teqTJMjL7Ax",
-    "amount": 7700000000
-  },
-  {
-    "address": "9VN1hV84YeTzTGRzjQ94WJeCktM3SZdPJxeEtsroMdTr",
+    "address": "2BcLXUNjTGWq2LE8zQJTP6GcV7oSgGgEpSS4uAK1MeVp",
     "amount": 7600000000
   },
   {
-    "address": "BGH4gAwUbCpH7dkPS5MiifemKdMXB1mjjCGKLtGuHNjU",
-    "amount": 7553983089
-  },
-  {
-    "address": "H29ypXJhoKJsWGdU6zh94QMF1scF8MRk7keexN17LMiK",
-    "amount": 7500000000
+    "address": "Fgv1zrwB6VF3jc45PaNT5t9AnSsJrwb8r7aMNip5fRY1",
+    "amount": 7600000000
   },
   {
     "address": "EVLjnC3oZ2Kz9S5uKeVhJw8Bon8tthM8YGomqQ35rxJW",
     "amount": 7154940852
+  },
+  {
+    "address": "CJAu79cjaX8UnJHtwgKyKkLp73jNBgaQzCuEkBVzTeXN",
+    "amount": 7102000000
   },
   {
     "address": "MakybETjhHtvDYaKgctHM8u2DhWUW1kvWLxmrKW2imN",
@@ -1084,20 +1120,20 @@
     "amount": 6900000000
   },
   {
-    "address": "2BcLXUNjTGWq2LE8zQJTP6GcV7oSgGgEpSS4uAK1MeVp",
-    "amount": 6800000000
-  },
-  {
-    "address": "31rYmSgGicQmAgC3TyePxx6TpEiQNCy5MfvER39T7z7x",
-    "amount": 6800000000
-  },
-  {
-    "address": "H1NUQfxCZFxmxx5PkEQP5cf5bkaBXC5nPwDwNRz6J6U5",
-    "amount": 6800000000
+    "address": "29KHZV5bteQ5bqsrFAsmGK9zqUNYV8M82Z7taWyHjSan",
+    "amount": 6702000000
   },
   {
     "address": "EeBCejQ9no6Qs6VrLcy7e1jJJKZygS81LNXfv4CRJM7D",
     "amount": 6605444066
+  },
+  {
+    "address": "By4wdUUDDJvdM3xtGts5d24g6pdsrUSfD6JHwmD6vkD3",
+    "amount": 6600000000
+  },
+  {
+    "address": "FXgmymC1DU4cNdZtfBRfg4dG11znDHUNsbLUsqWMd8H1",
+    "amount": 6600000000
   },
   {
     "address": "2648bitB35Df7ipwPNkehSxyvLneoAcHJQcqooJ4ddrv",
@@ -1112,28 +1148,12 @@
     "amount": 6499686630
   },
   {
-    "address": "Fgv1zrwB6VF3jc45PaNT5t9AnSsJrwb8r7aMNip5fRY1",
-    "amount": 6400000000
-  },
-  {
     "address": "HAUN8e5MAHrdajCgTo1rcW3NffooBQRqD1MXWXggdSRs",
     "amount": 6344000000
   },
   {
-    "address": "6S7291Xcz3Cr94irB8tCQjym5y7ZvNB67owDaCeCpvLx",
-    "amount": 6201000000
-  },
-  {
     "address": "9AGXkixK8q4BahBGo2V7Z6g4gocLVdseqAuC1eNkmR99",
     "amount": 6166608860
-  },
-  {
-    "address": "Dnhdercq1mqzhcXYybRq2kuuVxPBrVDAy4HTz8z2SuPx",
-    "amount": 6110000000
-  },
-  {
-    "address": "Ng7FTvc5g8jcGDgjd3PCSZmHy9cPYVFNFcVuLvSwwgh",
-    "amount": 6001000000
   },
   {
     "address": "8U5yNtvrQsGsnPPRtt2YwqZugvkvKUDvYwwAhgQpNCv2",
@@ -1144,15 +1164,15 @@
     "amount": 5923950681
   },
   {
-    "address": "29KHZV5bteQ5bqsrFAsmGK9zqUNYV8M82Z7taWyHjSan",
-    "amount": 5902000000
-  },
-  {
-    "address": "CJAu79cjaX8UnJHtwgKyKkLp73jNBgaQzCuEkBVzTeXN",
-    "amount": 5902000000
-  },
-  {
     "address": "3tWR3THSqqaHFKJ1fDyXBDCv4gJ3RmYdy7fZENDKT8xd",
+    "amount": 5800000000
+  },
+  {
+    "address": "44NufeScNk1tmecRRPBfZaS5bEM68pCaBnbRMpZCTLBd",
+    "amount": 5800000000
+  },
+  {
+    "address": "9VVbMCTQFfghASkGdjHQdLym1eeA3VSg4sDhhTmcCt2q",
     "amount": 5800000000
   },
   {
@@ -1160,15 +1180,7 @@
     "amount": 5800000000
   },
   {
-    "address": "By4wdUUDDJvdM3xtGts5d24g6pdsrUSfD6JHwmD6vkD3",
-    "amount": 5800000000
-  },
-  {
-    "address": "FXgmymC1DU4cNdZtfBRfg4dG11znDHUNsbLUsqWMd8H1",
-    "amount": 5800000000
-  },
-  {
-    "address": "HxjM8MTRFRnP482QL1dHNAWgNxfBG8PWXYAmXRXLK8Ho",
+    "address": "GuuTvnCLAJJD59mi73j1cnEgg18SoYuXTyp8yQwob6e1",
     "amount": 5800000000
   },
   {
@@ -1176,12 +1188,12 @@
     "amount": 5749601292
   },
   {
-    "address": "2egRHWt7uFLAbezYHtLJ8cavFyv9z1G4Mr7NGtxQUeiW",
-    "amount": 5589871040
+    "address": "DZtwzGbCsRRQLE8cxt3zB4iTXWydrKvFZcgAX1XpbQTf",
+    "amount": 5592671191
   },
   {
-    "address": "DZtwzGbCsRRQLE8cxt3zB4iTXWydrKvFZcgAX1XpbQTf",
-    "amount": 5576110317
+    "address": "2egRHWt7uFLAbezYHtLJ8cavFyv9z1G4Mr7NGtxQUeiW",
+    "amount": 5589871040
   },
   {
     "address": "8e7RzFMErQc4dcRJ2TQURcuaGrcgeSJUXPFv4T3asmbd",
@@ -1332,6 +1344,10 @@
     "amount": 4405431097
   },
   {
+    "address": "5PxfbVKNSfXNxf81HkWVdHpK8zHwJrjePF4fPWNcXoTj",
+    "amount": 4402000000
+  },
+  {
     "address": "FtuAnHz7KzBvUVg1K5UswGvwpMiXPZs3Y853fnjZ8hoy",
     "amount": 4246131021
   },
@@ -1368,16 +1384,8 @@
     "amount": 3768467125
   },
   {
-    "address": "EdZWbreSmgL7ygfY3iLRtZ9tt22FZQdjtSCdKr5TEfQV",
-    "amount": 3701552542
-  },
-  {
     "address": "FJshBhz4HXDBbEuLSba9Cy4wDyWFjogvsg2GnQETWoZM",
     "amount": 3684000000
-  },
-  {
-    "address": "5PxfbVKNSfXNxf81HkWVdHpK8zHwJrjePF4fPWNcXoTj",
-    "amount": 3602000000
   },
   {
     "address": "7RpH8yEqTkAs3N5fSJwPsNGz9kpqsMEcJ7BHWuEBfEnX",
@@ -1450,10 +1458,6 @@
   {
     "address": "3VQ9mJKdFq2aaXdNxzQKsn6LMXDZd2kXwBC77daGnQrD",
     "amount": 2429329921
-  },
-  {
-    "address": "59KZsQc8q8UNM7eSCwdiViF3zkmjG8FxdvEWydCGcnB4",
-    "amount": 2400000000
   },
   {
     "address": "39mQvA5b3fvHcP6pXKkHTYg6V6MYitQ8TEV5YaiqKCnQ",
@@ -1598,6 +1602,10 @@
   {
     "address": "5RzVUQzNtkCf2nh1VM5nDrts8fgFgXw8sELXuei8e3t9",
     "amount": 1642000000
+  },
+  {
+    "address": "59KZsQc8q8UNM7eSCwdiViF3zkmjG8FxdvEWydCGcnB4",
+    "amount": 1600000000
   },
   {
     "address": "EViz4YGrY6GZtfu35Y1Q3PoFWAhoXY6YMHFrcneMbdCF",
@@ -2578,6 +2586,10 @@
   {
     "address": "Hd5BaCS2Z6g8pqbX9QfsRQshjWFVyQz7xGn2JppWS8Fo",
     "amount": 16000000
+  },
+  {
+    "address": "BEochrdGhm5pcKVF73DURYrGo1DLzxq6bBcUBphQR64d",
+    "amount": 15873244
   },
   {
     "address": "GGztQqQ6pCPaJQnNpXBgELr5cs3WwDakRbh1iEMzjgSJ",
