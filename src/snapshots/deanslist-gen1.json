@@ -64,10 +64,6 @@
     "amount": 1
   },
   {
-    "address": "5SGkGbsA5zak15v75xNHeCbf9ZK5gBHXh1iGpd1mTYiU",
-    "amount": 1
-  },
-  {
     "address": "5W71TzEMGdQiHRe41MHzQpZmrFiqCTBx11qcsTxy3XSk",
     "amount": 1
   },
@@ -249,6 +245,10 @@
   },
   {
     "address": "GsTGWmPA9XRaSkzFd5np3SpnMZbrHf9nujeGihHa52H3",
+    "amount": 1
+  },
+  {
+    "address": "GwkaGP5KTFE5xvNqHt3M9ML5yCkTEyF9KJeShE6BQYcv",
     "amount": 1
   },
   {
