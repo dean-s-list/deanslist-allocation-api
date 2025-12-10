@@ -17,7 +17,7 @@
   },
   {
     "address": "HCAkuRvzeg8LEfKrns1ekMKwcExej2LExkKd8qK4jtM2",
-    "amount": 5301252804309
+    "amount": 5241598549033
   },
   {
     "address": "7A6CrNWAFFBpQTBRo5fULibqqB3MouNLgbVBf8D3MJAx",
@@ -33,7 +33,7 @@
   },
   {
     "address": "6Rpe7F531LnDjQ77ruG1zCnhEUDTqqm5MLSgac229tGn",
-    "amount": 3812261863070
+    "amount": 3809118729691
   },
   {
     "address": "GQmj5fKxYgjVUEeEaG3ogKpXzsnZeoYEK8mfpQbiZHqn",
@@ -137,7 +137,7 @@
   },
   {
     "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
-    "amount": 543390835199
+    "amount": 539834474668
   },
   {
     "address": "jNZU43oTsLY485ZJeRMTYNL27vLhsrrhNUqzRqXuD1T",
@@ -272,8 +272,12 @@
     "amount": 141701409781
   },
   {
+    "address": "BDcPaVwfebQVtWipsyHkyQw54tvjegBVStQHPbyLWVbp",
+    "amount": 140500002109
+  },
+  {
     "address": "HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC",
-    "amount": 134526559200
+    "amount": 133645286160
   },
   {
     "address": "HRLdZUitTR6ekSWqR8VqmYnEDVnDy8jhkJPB24t9hoB7",
@@ -410,10 +414,6 @@
   {
     "address": "7pPJt2xoEoPy8x8Hf2D6U6oLfNa5uKmHHRwkENVoaxmA",
     "amount": 61341216575
-  },
-  {
-    "address": "BDcPaVwfebQVtWipsyHkyQw54tvjegBVStQHPbyLWVbp",
-    "amount": 60500002109
   },
   {
     "address": "3ddvws2B7hJUW3Xw9jhyHPpMx4FhTXnzZ6zfgRgVpuw6",
@@ -664,10 +664,6 @@
     "amount": 18233691477
   },
   {
-    "address": "4tMD5F3hfiSmxG5cUwQ8zafouV8Ah8t4hZcft5oNWT9P",
-    "amount": 18076920000
-  },
-  {
     "address": "GikMQpphTRr5GqPpsn5gH6AVeMCxLsC3xsw7ioVe6wfX",
     "amount": 17840000000
   },
@@ -753,7 +749,7 @@
   },
   {
     "address": "DZtwzGbCsRRQLE8cxt3zB4iTXWydrKvFZcgAX1XpbQTf",
-    "amount": 12936076028
+    "amount": 12940382637
   },
   {
     "address": "kruHL3zJ1Mcbdibsna5xM6yMp7PZZ4BsNTpj2UMgvZC",
@@ -1242,6 +1238,10 @@
   {
     "address": "AZPV2A5wQYFvRBAJuhWeH7tkUFD8ik1bDTyDPqPvT3v",
     "amount": 5394052570
+  },
+  {
+    "address": "4tMD5F3hfiSmxG5cUwQ8zafouV8Ah8t4hZcft5oNWT9P",
+    "amount": 5307635617
   },
   {
     "address": "AyMM7QYGY8pzUoMXtJY7zkVxWcuiqP1FM4huq39YoB59",
