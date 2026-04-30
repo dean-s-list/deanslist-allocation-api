@@ -268,10 +268,6 @@
     "amount": 1
   },
   {
-    "address": "2sVE4nQXwqxgJ33Pbz8D7QLShYjKpAT2bbJbMgA7EeaC",
-    "amount": 1
-  },
-  {
     "address": "2t4iFm8Bh6XN8fRjRg27gm3YE31eCbjDbzCSRgyKKBKz",
     "amount": 1
   },
@@ -529,6 +525,10 @@
   },
   {
     "address": "7JAdRFAzHMSVBmHsDqsviekZXJmE2E5kTMnEff6n2wd4",
+    "amount": 1
+  },
+  {
+    "address": "7jJgp57uEARasXHX3R8VPsmwNNp78pB8gQbLYHLBx7X2",
     "amount": 1
   },
   {
